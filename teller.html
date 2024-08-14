@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teller</title>
+</head>
+
+<body>
+    <h1>Trykk for å endre tallet.</h1>
+    <div id="chaNum">0</div>
+    <button onclick="decNum()">Lavere</button>
+    <button onclick="incNum()">Høyere</button>
+
+    <script>
+        let chaNumDiv = document.getElementById("chaNum");
+        let num = x - 1;
+
+
+        function decNum() {
+            num--;
+            chaNumDiv.innerHTML = num
+
+        }
+
+        function incNum() {
+            num++;
+            chaNumDiv.innerHTML = num
+
+
+        }
+
+
+
+    </script>
+
+
+
+</body>
+
+</html>
+
